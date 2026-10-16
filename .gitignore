@@ -1,0 +1,11 @@
+# Cargo build output
+/target/
+
+# Local validation runs, generated tables, and built images
+/out/
+
+# Nextflow process module. MutCode is a standalone CLI, not a pipeline.
+/nextflow/
+
+# Windows Mark-of-the-Web sidecars from copied downloads
+*:Zone.Identifier
