@@ -7,5 +7,6 @@
 # Nextflow process module. MutCode is a standalone CLI, not a pipeline.
 /nextflow/
 
-# Windows Mark-of-the-Web sidecars from copied downloads
-*:Zone.Identifier
+# Windows Mark-of-the-Web sidecars from copied downloads.
+# Matches both "file:Zone.Identifier" and the WSL colon rewritten as U+F03A.
+*Zone.Identifier
